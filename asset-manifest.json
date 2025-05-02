@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/theme-switch/static/css/main.b2c028fc.css",
+    "main.js": "/theme-switch/static/js/main.b6d023d2.js",
+    "static/js/453.49b2da04.chunk.js": "/theme-switch/static/js/453.49b2da04.chunk.js",
+    "index.html": "/theme-switch/index.html",
+    "main.b2c028fc.css.map": "/theme-switch/static/css/main.b2c028fc.css.map",
+    "main.b6d023d2.js.map": "/theme-switch/static/js/main.b6d023d2.js.map",
+    "453.49b2da04.chunk.js.map": "/theme-switch/static/js/453.49b2da04.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2c028fc.css",
+    "static/js/main.b6d023d2.js"
+  ]
+}

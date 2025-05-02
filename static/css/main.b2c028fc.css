@@ -1,0 +1,2 @@
+#root,body,html{height:100%;margin:0;padding:0}.app-container{align-items:center;display:flex;justify-content:center;min-height:100vh;transition:background-color .3s ease,color .3s ease}.light{background-color:#fff;color:#000}.dark{background-color:#111;color:#fff}.theme-toggle-btn{background:none;border:none;cursor:pointer;font-size:60px;padding:20px;transition:transform .2s ease}.theme-toggle-btn:hover{transform:scale(1.1)}.toggle-wrapper{text-align:center}
+/*# sourceMappingURL=main.b2c028fc.css.map*/
