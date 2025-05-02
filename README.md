@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Theme Switcher App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React application that allows users to toggle between light and dark themes using the Context API and a custom hook.
 
-## Available Scripts
+## Technologies Used
 
-In the project directory, you can run:
+- React
+- JavaScript (ES6+)
+- Context API
+- Custom Hooks
+- CSS
+- GitHub Pages for deployment
 
-### `npm start`
+## Context API & Custom Hook Explanation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+We created a `ThemeContext` to manage the theme state globally across components like Navbar, Content, and Footer. A custom hook `useTheme()` was used to encapsulate and simplify access to the context:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+// context/themecontext.js
+export const useTheme = () => useContext(ThemeContext);
 
-### `npm test`
+## Run Locally
+To run the project locally:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 1. Clone the repository:
 
-### `npm run build`
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 2. Install dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 3. Start the app:
 
-### `npm run eject`
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Visit http://localhost:3000 in your browser to view the app.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Live Demo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Live Demo](https://cyrylretuta.github.io/theme-switch/)
