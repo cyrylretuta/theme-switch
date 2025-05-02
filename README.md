@@ -23,9 +23,9 @@ To run the project locally:
 
 # 1. Clone the repository:
 
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone https://github.com/username/repository-name.git
 
-cd <repo-name>
+cd repository-name
 
 # 2. Install dependencies:
 
